@@ -13,7 +13,11 @@ body {
   background: linear-gradient(to right, #567df1, #4bade6);
 }
 .container {
+  max-width: 500px;
+  width: 100%;
   padding: 50px 20px;
+  margin: 0 30px;
+  text-align: center;
   background: #fff;
   border-radius: 5px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
@@ -23,6 +27,7 @@ button {
   all: unset;
   background: linear-gradient(to right, #567df1, #4bade6);
   padding: 7px;
+  margin: 5px 0;
   border-radius: 3px;
   font-size: 15px;
   font-weight: bold;
